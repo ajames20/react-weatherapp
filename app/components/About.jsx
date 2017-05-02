@@ -4,8 +4,23 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h1 className="text-center">About Component</h1>
-        <p>Welcom to the about page</p>
+        <h1 className="text-center">About</h1>
+        <p className="text-center">This is a weather app built with React</p>
+        <p>
+          Here are some of the tools I used to build this app:
+        </p>
+        <ul>
+          <li>
+            <a href="https://facebook.github.io/react">React </a> Framework used to build app.
+          </li>
+          <li>
+            <a href="http://openweather.org">Open Weather Map </a> used to search for weather data.
+          </li>
+          <li>
+            <a href="https://github.com/ajames20/react-weatherapp">GitHub </a> used for version control.
+
+          </li>
+        </ul>
       </div>
     );
   }
