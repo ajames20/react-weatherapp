@@ -11,6 +11,7 @@ module.exports = {
       if (res.data.cod && res.data.message) {
         throw new Error(res.data.message);
       } else {
+        // console.log(res.data.weather["0"].icon)
         return res.data.main.temp;
       }
     }, (res) => {
