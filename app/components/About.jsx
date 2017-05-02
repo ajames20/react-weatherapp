@@ -5,7 +5,7 @@ class About extends Component {
     return (
       <div>
         <h1 className="text-center">About</h1>
-        <p className="text-center">This is a weather app built with React</p>
+        <h5 className="text-center">This is a weather app built with React</h5>
         <p>
           Here are some of the tools I used to build this app:
         </p>
@@ -14,7 +14,7 @@ class About extends Component {
             <a href="https://facebook.github.io/react">React </a> Framework used to build app.
           </li>
           <li>
-            <a href="http://openweather.org">Open Weather Map </a> used to search for weather data.
+            <a href="http://openweathermap.org/">Open Weather Map </a> used to search for weather data.
           </li>
           <li>
             <a href="https://github.com/ajames20/react-weatherapp">GitHub </a> used for version control.

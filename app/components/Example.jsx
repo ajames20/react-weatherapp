@@ -5,7 +5,7 @@ class Example extends Component {
   render() {
     return (
       <div>
-        <h1 className="text-center">Example Component</h1>
+        <h1 className="text-center">Example Searches</h1>
         <p>Here are a few examples to try out:</p>
         <ol>
           <li><Link to="/?location=Phoenix">Phoenix, AZ</Link></li>

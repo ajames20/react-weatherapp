@@ -5,7 +5,7 @@ class SearchResults extends Component {
     let { temp, loc } = this.props
     return (
       <div>
-        <p>It is {temp} rite now in {loc}</p>
+        <h3 className="text-center">It is {temp} rite now in {loc}</h3>
       </div>
     );
   }
