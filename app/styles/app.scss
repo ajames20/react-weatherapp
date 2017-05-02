@@ -6,6 +6,10 @@ $title-color: #555;
   margin-bottom: $space-large;
 }
 
+ul li {
+  list-style: block;
+}
+
 input[type=search] {
   box-shadow: none;
 }
