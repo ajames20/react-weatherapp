@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h1 className="text-center">About</h1>
+        <h1 className="text-center page-title">About</h1>
         <h5 className="text-center">This is a weather app built with React</h5>
         <p>
           Here are some of the tools I used to build this app:
