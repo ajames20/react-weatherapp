@@ -11,13 +11,13 @@ class About extends Component {
         </p>
         <ul>
           <li>
-            <a href="https://facebook.github.io/react">React </a> Framework used to build app.
+            <a href="https://facebook.github.io/react" target="_blank">React </a> Framework used to build app.
           </li>
           <li>
-            <a href="http://openweathermap.org/">Open Weather Map </a> used to search for weather data.
+            <a href="http://openweathermap.org/" target="_blank">Open Weather Map </a> used to search for weather data.
           </li>
           <li>
-            <a href="https://github.com/ajames20/react-weatherapp">GitHub </a> used for version control.
+            <a href="https://github.com/ajames20/react-weatherapp" target="_blank">My GitHub </a> used for version control.
 
           </li>
         </ul>
